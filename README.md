@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Identitas Mahasiswa
+## Identitas Mahasiswa
 
 | Informasi                    | Keterangan                                                |
 | :--------------------------- | :-------------------------------------------------------- |
@@ -22,7 +22,7 @@
 
 ---
 
-## 📁 Struktur Direktori Folder `UTS/`
+## Struktur Direktori Folder `UTS/`
 
 ```text
 UTS/
@@ -42,7 +42,7 @@ UTS/
 
 ---
 
-## 📊 Ringkasan Jawaban Soal UTS
+## Ringkasan Jawaban Soal UTS
 
 ### 1. Tugas Pendahuluan & Checkpoint
 
@@ -50,7 +50,7 @@ UTS/
 * **Checkpoint 2 (Akses Database Lain):** Klausa Cypher `USE <db_name>`, perintah DDL `SHOW DATABASES` / `CREATE DATABASE`, dan via Python API `database_="<db_name>"`.
 * **Checkpoint 3 (Jenis Graf):** **Graf Berarah (*Directed Graph*)** dengan relasi `[:KNOWS]` (`(a)-[:KNOWS]->(friend)`).
 
-### 2. Bagian 2.1: Wrangling dan EDA (Bobot: 45)
+### 2. Bagian 2.1: Wrangling dan EDA 
 
 * **Soal 1 & 2 (Filter Waktu & CSV):**
   - Fold Training (P1): 10–12 Sept 2015 ($59.561$ interaksi $\rightarrow$ `events_p1_train.csv`).
@@ -74,7 +74,7 @@ UTS/
   - Seluruh relasi `[:SIMILAR_TO {score: ...}]` sudah **tersimpan ke dalam instance graf Neo4j AuraDB**.
 * **Soal 8 (Kondisi Sebelum vs Sesudah):** Dilengkapi query Cypher dan visualisasi grafik perbandingan struktur graf.
 
-### 3. Bagian 2.2: Analytics & Rekomendasi (Bobot: 55)
+### 3. Bagian 2.2: Analytics & Rekomendasi 
 
 * **Soal 1 (User Acak Reproducible & Algoritma KNN):**
   - Target User Terpilih (deterministik): **`Visitor ID: 1003939`**.
@@ -96,13 +96,3 @@ UTS/
     $$
 
 ---
-
-## 🚀 Panduan Menjalankan & Pengumpulan
-
-1. Buka file **`uts_gsd_retailrocket.ipynb`** di Jupyter Notebook / VS Code.
-2. Lengkapi Nama Lengkap dan NIM Anda pada tabel identitas di awal notebook.
-3. Jalankan seluruh sel (*Run All*).
-4. Untuk pengunggahan ke GitHub:
-   - Buat repositori baru di akun GitHub Anda (misal: `UTS-Graf-Sains-Data`).
-   - Unggah folder `UTS/` ini (file notebook, gambar PNG visualisasi, dataset CSV terfilter `events_p1_train.csv` dan `events_p2_test.csv`).
-   - Salin URL repositori GitHub Anda dan kumpulkan pada tautan Google Classroom sebelum tenggat waktu: **Selasa, 20 Oktober 23:59**.
