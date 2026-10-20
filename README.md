@@ -1,8 +1,7 @@
 # Ujian Tengah Semester (UTS) — Graf Sains Data (Gasal 2026/2027)
 
 * **Program Studi:** S1 Sains Data — FMIPA Universitas Negeri Surabaya (UNESA)
-* **Mata Kuliah:** Graf Sains Data (3 SKS)
-* **Materi:** Python Driver untuk Neo4j dan Sistem Rekomendasi Graf
+* **Mata Kuliah:** Graf Sains Data 
 * **Dataset:** RetailRocket eCommerce Dataset (`events.csv`)
 * **Database Engine:** Neo4j AuraDB (Cloud Instance: `81a4f7a1`)
 
@@ -17,8 +16,6 @@
 | **Kelas**              | Sains Data 2023 (Kelas 2023A)                              |
 | **Fold Training (P1)** | **10 September 2015 – 12 September 2015** (3 Hari) |
 | **Fold Testing (P2)**  | **13 September 2015 – 14 September 2015** (2 Hari) |
-
-> **Catatan Validasi Keunikan:** Rentang waktu ini diverifikasi 100% unik dan tidak digunakan oleh mahasiswa lain di kelas.
 
 ---
 
