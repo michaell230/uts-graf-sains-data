@@ -1,0 +1,19 @@
+# Kaggle Raw Dataset (94.2 MB)
+events.csv
+*.zip
+
+# Sensitive Cloud Credentials
+Neo4j-*.txt
+*.env
+
+# Python & Jupyter Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.tmp
+
+# Virtual Environments
+venv/
+myvenv/
+env/
